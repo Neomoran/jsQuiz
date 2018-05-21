@@ -1,0 +1,41 @@
+body{
+	background: grey;
+	font-family: 'Arial', sans-serif;
+	font-size: 15px;
+	height: 100vh;
+}
+
+.container{
+	width: 50%;
+	padding: 25px;
+	margin: 20px auto;
+	background: aqua;
+	overflow: auto;
+	box-shadow: 3px 3px 3px #000 ;
+
+}
+.container hr{
+	border: 1px #000 dashed;
+}
+header{
+	text-align: center;
+}
+header h1{
+	margin: 0px;
+
+}
+#scoreline h3{
+	color: #000;
+	width: 180px;
+	padding:5px;
+	background: red;
+	margin: 10px 0;
+}
+#scoreline span{
+	font-weight: bold;
+	color: yellow;
+}
+footer{
+	text-align: center;
+	font-weight: bold;
+}
